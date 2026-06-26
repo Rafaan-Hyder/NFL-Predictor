@@ -41,6 +41,11 @@ form in the dataset:
 python src/predict_matchup.py KC SF
 ```
 
+Use current franchise abbreviations (e.g. `LV` not `OAK`, `LAC` not `SD`,
+`LA` not `STL`). The script validates its input and reports a clear error
+for: wrong number of arguments, an unrecognized team code (it lists all
+valid codes), or the same team passed twice — no raw tracebacks.
+
 ## Results summary
 
 Trained on 2010-2021, evaluated on a held-out chronological test set
