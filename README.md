@@ -86,7 +86,7 @@ models/            trained models (joblib) + fitted scaler
 ## Data source note
 
 The proposal named Pro Football Reference as the primary data source.
-We used nflverse data (the same data underlying the `nfl_data_py`
+I used nflverse data (the same data underlying the `nfl_data_py`
 package) instead, pulled directly from its GitHub-hosted CSV releases.
 This was a documented fallback from the build plan, chosen because it's
 the same open, well-documented dataset without scraping fragility. See
